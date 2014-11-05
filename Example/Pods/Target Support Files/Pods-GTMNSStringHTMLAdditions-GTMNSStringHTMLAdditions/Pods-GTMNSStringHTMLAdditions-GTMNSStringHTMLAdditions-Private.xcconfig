@@ -1,0 +1,5 @@
+#include "Pods-GTMNSStringHTMLAdditions-GTMNSStringHTMLAdditions.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Build" "${PODS_ROOT}/Headers/Build/GTMNSStringHTMLAdditions" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/GTMNSStringHTMLAdditions"
+OTHER_LDFLAGS = -ObjC
+PODS_ROOT = ${SRCROOT}

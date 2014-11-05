@@ -1,0 +1,8 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+
+target 'GTMNSStringHTMLAdditions', :exclusive => true do
+  pod "GTMNSStringHTMLAdditions", :path => "../"
+
+  
+end
