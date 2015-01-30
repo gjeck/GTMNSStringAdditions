@@ -5,6 +5,9 @@
 [![License](https://img.shields.io/cocoapods/l/GTMNSStringHTMLAdditions.svg?style=flat)](http://cocoadocs.org/docsets/GTMNSStringHTMLAdditions)
 [![Platform](https://img.shields.io/cocoapods/p/GTMNSStringHTMLAdditions.svg?style=flat)](http://cocoadocs.org/docsets/GTMNSStringHTMLAdditions)
 
+## Status
+Not currently submitted to Cocoapods
+
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
