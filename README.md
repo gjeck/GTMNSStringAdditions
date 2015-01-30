@@ -26,3 +26,6 @@ Gregory Jeckell, greg@tilofy.com
 
 GTMNSStringHTMLAdditions is available under the MIT license. See the LICENSE file for more info.
 
+## TODO
+
+Complete the pod and submit to Cocoapods
