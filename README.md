@@ -5,14 +5,11 @@
 [![License](https://img.shields.io/cocoapods/l/GTMNSStringHTMLAdditions.svg?style=flat)](http://cocoadocs.org/docsets/GTMNSStringHTMLAdditions)
 [![Platform](https://img.shields.io/cocoapods/p/GTMNSStringHTMLAdditions.svg?style=flat)](http://cocoadocs.org/docsets/GTMNSStringHTMLAdditions)
 
-## Status
-Not currently submitted to Cocoapods
+Google Toolbox for Mac string categories
 
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
 
 ## Installation
 
@@ -23,12 +20,8 @@ it, simply add the following line to your Podfile:
 
 ## Author
 
-Gregory Jeckell, greg@tilofy.com
+[Google](https://code.google.com/p/google-toolbox-for-mac/)
 
 ## License
 
-GTMNSStringHTMLAdditions is available under the MIT license. See the LICENSE file for more info.
-
-## TODO
-
-Complete the pod and submit to Cocoapods
+GTMNSStringHTMLAdditions is available under the Apache license. See the LICENSE file for more info.

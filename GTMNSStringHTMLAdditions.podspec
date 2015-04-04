@@ -10,18 +10,15 @@
 Pod::Spec.new do |s|
   s.name             = "GTMNSStringHTMLAdditions"
   s.version          = "0.1.0"
-  s.summary          = "A short description of GTMNSStringHTMLAdditions."
+  s.summary          = "GTMNSStringHTMLAdditions contains Google Toolbox for Mac string methods"
   s.description      = <<-DESC
-                       An optional longer description of GTMNSStringHTMLAdditions
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       Google Toolbox for Mac string categories. Some useful methods for dealing with HTML strings
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/GTMNSStringHTMLAdditions"
+  s.homepage         = "https://code.google.com/p/google-toolbox-for-mac/"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
-  s.license          = 'MIT'
+  s.license          = 'Apache'
   s.author           = { "Gregory Jeckell" => "greg@tilofy.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/GTMNSStringHTMLAdditions.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/greg-tilofy/GTMNSStringAdditions.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
