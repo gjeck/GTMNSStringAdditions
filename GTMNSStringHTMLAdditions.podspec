@@ -9,17 +9,16 @@
 
 Pod::Spec.new do |s|
   s.name             = "GTMNSStringHTMLAdditions"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "GTMNSStringHTMLAdditions contains Google Toolbox for Mac string methods"
   s.description      = <<-DESC
                        Google Toolbox for Mac string categories. Some useful methods for dealing with HTML strings
                        DESC
   s.homepage         = "https://code.google.com/p/google-toolbox-for-mac/"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'Apache'
-  s.author           = { "Gregory Jeckell" => "greg@tilofy.com" }
-  s.source           = { :git => "https://github.com/greg-tilofy/GTMNSStringAdditions.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { "Gregory Jeckell" => "gregory.jeckell@gmail.com" }
+  s.source           = { :git => "https://github.com/gjeck/GTMNSStringAdditions.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/GJeckell'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
