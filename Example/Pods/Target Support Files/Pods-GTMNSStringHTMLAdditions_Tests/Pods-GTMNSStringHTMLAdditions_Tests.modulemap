@@ -1,0 +1,6 @@
+framework module Pods_GTMNSStringHTMLAdditions_Tests {
+  umbrella header "Pods-GTMNSStringHTMLAdditions_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

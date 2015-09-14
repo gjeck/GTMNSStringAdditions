@@ -1,0 +1,14 @@
+PODS:
+  - GTMNSStringHTMLAdditions (0.1.0)
+
+DEPENDENCIES:
+  - GTMNSStringHTMLAdditions (from `../`)
+
+EXTERNAL SOURCES:
+  GTMNSStringHTMLAdditions:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GTMNSStringHTMLAdditions: 93c0d364af900a43eeadbf72ca31a1076c37bc70
+
+COCOAPODS: 0.38.2

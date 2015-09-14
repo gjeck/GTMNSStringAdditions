@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="whP-gf-Uak">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="whP-gf-Uak">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
@@ -16,12 +16,62 @@
                     <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="#{raw_string}" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CF0-vb-8Wy">
+                                <rect key="frame" x="263.5" y="148" width="73.5" height="14.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Raw HTML String:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dwI-Cz-gSV">
+                                <rect key="frame" x="230" y="120" width="140.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="#{unescaped_string}" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Yj-dT-yyn">
+                                <rect key="frame" x="242.5" y="219" width="114.5" height="14.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Unescaped String:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YlW-PX-Yzx">
+                                <rect key="frame" x="228" y="190" width="143" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="YlW-PX-Yzx" secondAttribute="centerX" id="2P3-FW-mxa"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="CF0-vb-8Wy" secondAttribute="trailing" constant="10" id="6Nu-eI-sYy"/>
+                            <constraint firstItem="CF0-vb-8Wy" firstAttribute="top" secondItem="dwI-Cz-gSV" secondAttribute="bottom" constant="8" id="Aej-Gb-UkF"/>
+                            <constraint firstItem="1Yj-dT-yyn" firstAttribute="centerX" secondItem="YlW-PX-Yzx" secondAttribute="centerX" id="BrX-WS-dcv"/>
+                            <constraint firstItem="1Yj-dT-yyn" firstAttribute="top" secondItem="YlW-PX-Yzx" secondAttribute="bottom" constant="8" id="KFh-bC-uGu"/>
+                            <constraint firstItem="1Yj-dT-yyn" firstAttribute="leading" secondItem="YlW-PX-Yzx" secondAttribute="leading" id="KKX-J1-Okb"/>
+                            <constraint firstAttribute="centerX" secondItem="dwI-Cz-gSV" secondAttribute="centerX" id="PbQ-3w-vr9"/>
+                            <constraint firstItem="YlW-PX-Yzx" firstAttribute="top" secondItem="CF0-vb-8Wy" secondAttribute="bottom" constant="28" id="ZRE-Gx-0ea"/>
+                            <constraint firstItem="CF0-vb-8Wy" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="TpU-gO-2f1" secondAttribute="leading" constant="10" id="dlE-Gy-JHs"/>
+                            <constraint firstItem="dwI-Cz-gSV" firstAttribute="top" secondItem="uEw-UM-LJ8" secondAttribute="bottom" constant="100" id="hNL-LU-GPc"/>
+                            <constraint firstItem="CF0-vb-8Wy" firstAttribute="leading" secondItem="dwI-Cz-gSV" secondAttribute="leading" id="mYr-o8-l8T"/>
+                            <constraint firstItem="CF0-vb-8Wy" firstAttribute="centerX" secondItem="dwI-Cz-gSV" secondAttribute="centerX" id="qK3-30-N32"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="mYr-o8-l8T"/>
+                                <exclude reference="KKX-J1-Okb"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <connections>
+                        <outlet property="lblRawString" destination="CF0-vb-8Wy" id="i0A-4Q-xrO"/>
+                        <outlet property="lblUnescapedString" destination="1Yj-dT-yyn" id="epf-F6-cOH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="305" y="433"/>
+            <point key="canvasLocation" x="452" y="423"/>
         </scene>
     </scenes>
 </document>

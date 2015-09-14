@@ -7,9 +7,11 @@
 //
 
 #import "GTMViewController.h"
+@import GTMNSStringHTMLAdditions;
 
 @interface GTMViewController ()
-
+@property (weak, nonatomic) IBOutlet UILabel* lblRawString;
+@property (weak, nonatomic) IBOutlet UILabel* lblUnescapedString;
 @end
 
 @implementation GTMViewController
@@ -17,13 +19,14 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    NSString* rawString = @"&quot; &amp; &apos; &lt; &gt; &circ; &tilde;";
+    [_lblRawString setText:rawString];
+    [_lblUnescapedString setText:[rawString gtm_stringByUnescapingFromHTML]];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end
