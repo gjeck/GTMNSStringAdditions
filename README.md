@@ -24,7 +24,7 @@ NSLog(@"%@", unescaped_string); // Here's a raw html string you'll want to escap
 ```swift
 let raw_html_string = "Here&apos;s a raw html string you&apos;ll want to escape. 10 &gt; 4 &amp;&amp; 6 &lt; 8."
 let unescaped_string = raw_html_string.gtm_stringByUnescapingFromHTML()
-println(unescaped_string) // Here's a raw html string you'll want to escape. 10 > 4 && 6 < 8.
+print(unescaped_string) // Here's a raw html string you'll want to escape. 10 > 4 && 6 < 8.
 ```
 
 ## Installation
