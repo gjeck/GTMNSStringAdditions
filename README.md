@@ -13,18 +13,18 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 To use in a project just import/include the package and get started as follows:
 
-####Objective-C
+#### Objective-C
 ```objective-c
-NSString* raw_html_string = @"Here&apos;s a raw html string you&apos;ll want to escape. 10 &gt; 4 &amp;&amp; 6 &lt; 8.";
+NSString* raw_html_string = @"Here&apos;s a raw html string you&apos;ll want to unescape. 10 &gt; 4 &amp;&amp; 6 &lt; 8.";
 NSString* unescaped_string = [raw_html_string gtm_stringByUnescapingFromHTML];
-NSLog(@"%@", unescaped_string); // Here's a raw html string you'll want to escape. 10 > 4 && 6 < 8.
+NSLog(@"%@", unescaped_string); // Here's a raw html string you'll want to unescape. 10 > 4 && 6 < 8.
 ```
 
-####Swift
+#### Swift
 ```swift
-let raw_html_string = "Here&apos;s a raw html string you&apos;ll want to escape. 10 &gt; 4 &amp;&amp; 6 &lt; 8."
+let raw_html_string = "Here&apos;s a raw html string you&apos;ll want to unescape. 10 &gt; 4 &amp;&amp; 6 &lt; 8."
 let unescaped_string = raw_html_string.gtm_stringByUnescapingFromHTML()
-print(unescaped_string) // Here's a raw html string you'll want to escape. 10 > 4 && 6 < 8.
+print(unescaped_string) // Here's a raw html string you'll want to unescape. 10 > 4 && 6 < 8.
 ```
 
 ## Installation
